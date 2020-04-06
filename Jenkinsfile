@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker build("hritz220/MyNewJob")
+        app = docker build("docker-build")
     }
 
     stage('Test image') {
