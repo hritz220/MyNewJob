@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker build -t flask-tutorial:latest)
+        app = docker build("flask-tutorial:latest")
     }
 
     stage('Test image') {
